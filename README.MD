@@ -45,28 +45,41 @@ Our project — SmartTwin Warehouse — acts as a digital twin of the real wareh
 - A retraining button allows on-demand model updates (daily_train.py), automatically saving new versions of the .pkl model.
 
 ## Architecture
-📦 gategroup-expiration-challenge/
-│
-├── app.py                    # Main SmartTwin Warehouse dashboard
-├── pages/
-│   ├── waste.py              # ML waste prediction interface
-│   ├── scenarios.py          # Simulation and risk scenario tool
-│
-├── utils/
-│   ├── predictive_ai.py      # Model inference helpers
-│   ├── risk_utils.py         # Simulation logic for delay/consumption
-│
-├── data/
-│   ├── expirations_processed.csv
-│   ├── data_with_risk.csv
-│   ├── waste_training_history.csv
-│   ├── waste_model.pkl
-│
-├── assets/
-│   └── theme.css             # Global Streamlit theme
-│
-├── nav.py                    # Custom top navigation bar
-└── README.md
+```mermaid
+graph TD
+    A[gategroup-expiration-challenge/]:::root
+
+    %% Main app
+    A --> B[app.py<br/>Main SmartTwin Warehouse dashboard]
+
+    %% Pages folder
+    A --> C[pages/]
+    C --> C1[waste.py<br/>ML waste prediction interface]
+    C --> C2[scenarios.py<br/>Simulation & risk scenario tool]
+
+    %% Utils
+    A --> D[utils/]
+    D --> D1[predictive_ai.py<br/>Model inference helpers]
+    D --> D2[risk_utils.py<br/>Simulation logic for delay/consumption]
+
+    %% Data
+    A --> E[data/]
+    E --> E1[expirations_processed.csv]
+    E --> E2[data_with_risk.csv]
+    E --> E3[waste_training_history.csv]
+    E --> E4[waste_model.pkl]
+
+    %% Assets
+    A --> F[assets/]
+    F --> F1[theme.css<br/>Global Streamlit theme]
+
+    %% Other
+    A --> G[nav.py<br/>Custom top navigation bar]
+    A --> H[README.md]
+
+    %% Styling
+    classDef root fill:#E2001A,stroke:#E2001A,stroke-width:2px,color:white,font-weight:bold;
+```
 
 ## Features
 | Feature| Description |
