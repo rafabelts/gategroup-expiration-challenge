@@ -1,0 +1,26 @@
+
+[2025-10-26 04:26:39] Modelo reentrenado
+Precisión (train): 1.000
+Precisión (test): 1.000
+              precision    recall  f1-score   support
+
+           0      1.000     1.000     1.000        31
+           1      1.000     1.000     1.000         7
+
+    accuracy                          1.000        38
+   macro avg      1.000     1.000     1.000        38
+weighted avg      1.000     1.000     1.000        38
+
+
+[2025-10-26 04:29:59] Modelo reentrenado
+Precisión (train): 1.000
+Precisión (test): 1.000
+              precision    recall  f1-score   support
+
+           0      1.000     1.000     1.000        31
+           1      1.000     1.000     1.000         7
+
+    accuracy                          1.000        38
+   macro avg      1.000     1.000     1.000        38
+weighted avg      1.000     1.000     1.000        38
+

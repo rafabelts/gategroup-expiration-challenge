@@ -1,0 +1,20 @@
+
+:root {
+  --gg-blue: #000164;
+  --gg-white: #FFFFFF;
+}
+.main > div { max-width: 1200px; margin: 0 auto; }
+.block-container { padding-top: 2rem; }
+.big-title { font-size: 2.2rem; font-weight: 800; color: var(--gg-blue); margin-bottom: .5rem; }
+.card {
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 16px;
+  padding: 16px 18px;
+  background: #fff;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.02);
+}
+.kpi { font-size: 2rem; font-weight: 800; color: var(--gg-blue); }
+.kpi-sub { color: #204; font-size: .9rem; opacity: .8; }
+.badge { background: rgba(0,1,100,.08); color: #000164; padding: 4px 10px; border-radius: 999px; font-weight: 700; }
+hr { border: none; height: 1px; background: rgba(0,0,0,.08); margin: 10px 0 14px; }
+.small { font-size: .9rem; opacity: .8; }
