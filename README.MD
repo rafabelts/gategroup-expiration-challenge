@@ -117,14 +117,9 @@ git clone https://github.com/rafabelts/gategroup-expiration-challenge.git
 cd gategroup-expiration-challenge
 ```
 
-2. Install dependencies
+2. Start program 
 ```bash
-pip install -r requirements.txt
-```
-
-3. Run the app
-```bash
-streamlit run app.py
+./start.sh
 ```
 
 Access the dashboard at: http://localhost:8501

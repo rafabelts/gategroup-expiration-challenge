@@ -160,4 +160,3 @@ if model is not None:
         st.bar_chart(fi_df.to_pandas().set_index("Feature"))
 
     st.divider()
-
